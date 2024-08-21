@@ -1,1 +1,11 @@
-Writing My First Code
+"""
+# this program is made to print hello ,7  and multiplications.
+# print can be used to print anything.
+"""
+print("hello and \nthis is \n boy\nwho is very intelligent", 7)
+# this is double line comment.
+print(88 * 99)  #this is the multiplication of 88 and 99
+# this is the end of the program
+print("hey", 6, 7, sep="~", end="009\n")
+print("bye")
+exit()
