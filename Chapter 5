@@ -1,0 +1,13 @@
+#here I use integer class as 1 is number etc.
+# a= "!"
+a = int("1")
+# a="2"
+b = int("2")
+# implicit typecasting
+print(a + b)
+# We can delete int in variable 's value
+# write it as print(int(a)+int(b))
+c = (1.9)
+d = 8
+print(c + d)
+exit()
