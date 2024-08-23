@@ -1,0 +1,6 @@
+string = 22
+number =11
+string_number = int(string)
+sum = number + string_number
+print("the sum of the both numbers is:", sum)
+exit()
