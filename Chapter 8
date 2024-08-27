@@ -1,0 +1,19 @@
+name = "Prince"
+Friend = "Lovepreet"
+anotherfriend = "Manvir"
+# we can't use double quotes in double quotes
+# we can use single o
+Apple = '''he said,
+Hi Prince
+hey I am good
+"I want to eat an apple'''
+# here I print Hello + name's value
+print("Hello," + name)
+print(Apple)
+# here I am doing Indexing in which I print name's value from 0 to 6
+print(name[0:5])
+print(name[1])
+# lets do looping
+print("lets use for loop/n")
+for character in Apple:
+  print(character)
