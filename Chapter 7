@@ -1,10 +1,13 @@
-a = input("Enter Your Name:")
-# Here is I use input class in which I fill my name in input.
-print("My Name is", a)
-
-x = input("Enter your First number:")
-y = input("Enter your Second Number")
-# Here I don't use the print(x + y) as ,It will print the number as a string.
-print(int(x) + int(y))
-# Here I use the int class in which I convert the string into integer.
+#here I use integer class as 1 is number etc.
+# a= "!"
+a = int("1")
+# a="2"
+b = int("2")
+# implicit typecasting
+print(a + b)
+# We can delete int in variable 's value
+# write it as print(int(a)+int(b))
+c = (1.9)
+d = 8
+print(c + d)
 exit()
