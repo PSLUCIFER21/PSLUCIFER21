@@ -13,7 +13,7 @@ print(Apple)
 # here I am doing Indexing in which I print name's value from 0 to 6
 print(name[0:5])
 print(name[1])
-# lets do loopijng
+# lets do looping
 print("lets use for loop/n")
 for character in Apple:
   print(character)
