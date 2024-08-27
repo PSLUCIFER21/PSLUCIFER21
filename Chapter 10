@@ -1,0 +1,15 @@
+names = "Prabhjot Singh,Lovepreet Singh"
+print(names[0:8])
+Fruit = "Mangos"
+mangolen = len(Fruit)
+# print(mangolen)
+# print(Fruit[0:4])# including 0 but not 4
+# print(Fruit[1:4])# inclufding ! but not 4
+# print(Fruit[:5])
+# print(Fruit[0:len(Fruit)-3])
+print(Fruit[0:-3])
+print(Fruit[-3:-1])
+# Quick Quiz:
+nm = "Harry"
+print(nm[-4:-2])
+# @codewithharry
