@@ -1,19 +1,10 @@
-name = "Prince"
-Friend = "Lovepreet"
-anotherfriend = "Manvir"
-# we can't use double quotes in double quotes
-# we can use single o
-Apple = '''he said,
-Hi Prince
-hey I am good
-"I want to eat an apple'''
-# here I print Hello + name's value
-print("Hello," + name)
-print(Apple)
-# here I am doing Indexing in which I print name's value from 0 to 6
-print(name[0:5])
-print(name[1])
-# lets do looping
-print("lets use for loop/n")
-for character in Apple:
-  print(character)
+a = input("Enter Your Name:")
+# Here is I use input class in which I fill my name in input.
+print("My Name is", a)
+
+x = input("Enter your First number:")
+y = input("Enter your Second Number")
+# Here I don't use the print(x + y) as ,It will print the number as a string.
+print(int(x) + int(y))
+# Here I use the int class in which I convert the string into integer.
+exit()
