@@ -1,0 +1,36 @@
+# strings are immutable
+a = "!Prince!!!!  !!!! Prince"
+print(len(a))
+# len is used to find the length of the string
+print(a.upper())
+# upper is used to convert the string into upper case
+print(a.lower())
+# lower is used to convert the string into lower case
+print(a.rstrip("!"))
+# rstrip is used to remove the trailing characters
+print(a.replace("Prince", "John"))
+# replace is used to replace all occurences of a string with another string
+print(a.split(" "))
+# split is used to split the string at the specified instance and returns 
+#the separated strings as list items.
+
+blogheading = "introduction to js"
+# Here I use capatilize to capitalize the blogheading
+print(blogheading.capitalize())
+str1 = "Pslucifer"
+# We can use str1 more than one or more times.
+print(len(str1))
+print(str1.center(30))
+# center is used to align the string to 
+#the center as per the parameters given by the user 30 is the no of spaces at the lead.
+print(str1.count("Pslucifer"))
+# count is used to count the no of times a string has occured in the program
+print(str1.endswith("r"))
+# endwith is used to check if the string ends with a given value.
+#If yes then it returntrue, else it returns false.
+
+str1 = "He is a good guy"
+print(str1.find("is"))
+# find is used to find the first occurence of the given value and returns the index 
+#where it is present. If the given value is absent from the string then return -1.
+print(str1.index("ishh"))
