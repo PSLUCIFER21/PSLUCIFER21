@@ -1,0 +1,24 @@
+a = int(input("enter your age:"))
+print("your age is:", a)
+# conditional operators
+# >, <, >=, <=, ==, !=
+print(a>18)
+# a is37 greater than 18 or not
+print(a==18)
+# a is equal to 18
+print(a<=18)
+# smaller than sign is usd to check.
+# if the value on the left is smaller than the value on the right.
+print(a!=18)
+# ! is for not as a is not equal to 18
+if(a>18):
+  # the space ahead is indentation.it means. 
+  # we are starting a block or we are entering if or other.
+  print("you can drive")
+  print("yes")
+else:
+  print("you cannot drive")
+  print("No")
+print("yay")
+
+exit()
