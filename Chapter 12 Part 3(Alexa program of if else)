@@ -1,0 +1,9 @@
+appleprice=10
+budget=200
+if(appleprice - budget > 50):
+  print("Alexa, add 1 kg apples to the cart.")
+elif(appleprice - budget > 70):
+  print("its okay you can buy")
+else:
+  print("Alexa, do not add apples to the cart.")
+exit()
