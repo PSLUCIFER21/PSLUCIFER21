@@ -26,11 +26,36 @@ print(str1.center(30))
 print(str1.count("Pslucifer"))
 # count is used to count the no of times a string has occured in the program
 print(str1.endswith("r"))
-# endwith is used to check if the string ends with a given value.
-#If yes then it returntrue, else it returns false.
+# ends with is used to check if the string ends with a given value.
+#If yes then it return true, else it returns false.
 
 str1 = "He is a good guy"
 print(str1.find("is"))
 # find is used to find the first occurence of the given value and returns the index 
 #where it is present. If the given value is absent from the string then return -1.
 print(str1.index("ishh"))
+# As we can see, this method is somewhat similar to the find() method.
+# The major difference being that index.
+
+str1 = "welcome to the console"
+print(str1.isalnum())
+
+str1 = "hello world"
+print(str1.islower())
+# here I am asking python that str is in lower case or not
+
+str1 = "we wish you a merry christmas"
+print(str1.isprintable())
+# here I am asking python that str is printable or not\
+str1 = "        "
+# using spacebar
+print(str1.isspace())
+str2 = "World Health Organization"
+print(str2.istitle())
+# here I am asking python that str is a Title or not
+str2 = "To kill a Mocking bird"
+print(str2.istitle())
+print(str2.lower())
+# here I am asking python to convert the given string whole into lower case.
+print(str2.swapcase())
+# here I am asking python to convert the given string whole into opposite case.
